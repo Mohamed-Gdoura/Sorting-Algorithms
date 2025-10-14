@@ -28,3 +28,33 @@ Best Case: O(n) (optimized version only)
 
 Average & Worst Case: O(n²)
 Space Complexity: O(1)
+
+🧠 Insertion Sort
+
+This project implements the Insertion Sort algorithm — a simple and intuitive sorting algorithm suitable for small datasets or nearly sorted data.
+
+📌 What is Insertion Sort?
+
+Insertion Sort builds the final sorted array one element at a time. It works similarly to how we sort playing cards in our hands.
+
+Time Complexity:
+
+Worst Case: O(n²)
+
+Best Case (Already Sorted): O(n)
+
+Average Case: O(n²)
+
+Space Complexity: O(1) (In-place sorting)
+
+Stable: ✅
+
+📎 How It Works
+
+For each element in the array:
+
+Compare it to the previous elements.
+
+Shift all larger elements to the right.
+
+Insert the current element into the correct position.
